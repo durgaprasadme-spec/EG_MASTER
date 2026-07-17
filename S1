@@ -1,0 +1,245 @@
+Build a complete Flutter Android application named "EG MASTER".
+
+The app should be a professional offline Engineering Graphics learning platform for Diploma and B.Tech Mechanical/Civil students.
+
+Use Flutter (latest stable), Material 3 design, and clean architecture.
+
+Project Structure:
+
+lib/
+ ├── main.dart
+ ├── app.dart
+ ├── core/
+ ├── models/
+ ├── services/
+ ├── data/
+ ├── widgets/
+ ├── screens/
+ │      splash/
+ │      home/
+ │      learn/
+ │      problems/
+ │      quiz/
+ │      notes/
+ │      papers/
+ │      settings/
+
+Use Provider for state management.
+
+Create a professional blue and white Material 3 UI.
+
+========================================
+
+HOME SCREEN
+
+Display six cards:
+
+📚 Learn
+
+✏ Solved Problems
+
+❓ Quiz
+
+📄 Notes
+
+🏆 Previous Papers
+
+⚙ Settings
+
+Each card should navigate to its own screen.
+
+========================================
+
+LEARN MODULE
+
+Include these chapters:
+
+Introduction
+
+Scales
+
+Conic Sections
+
+Cycloids
+
+Involutes
+
+Projection of Points
+
+Projection of Lines
+
+Projection of Planes
+
+Projection of Solids
+
+Sections of Solids
+
+Development of Surfaces
+
+Isometric Projection
+
+Orthographic Projection
+
+Perspective Projection
+
+CAD Basics
+
+Each chapter should contain:
+
+Theory
+
+Images
+
+Important Points
+
+Solved Example
+
+Practice Questions
+
+========================================
+
+SOLVED PROBLEMS
+
+Create separate categories:
+
+Projection of Points
+
+Projection of Lines
+
+Projection of Planes
+
+Projection of Solids
+
+Sections of Solids
+
+Development of Surfaces
+
+Isometric Projection
+
+Each solved problem must include:
+
+Question
+
+Construction Theory
+
+Step-by-step construction
+
+Engineering drawing images
+
+Final drawing
+
+Practice questions
+
+Use InteractiveViewer to zoom drawings.
+
+========================================
+
+QUIZ MODULE
+
+Chapter-wise quizzes
+
+MCQ
+
+Random questions
+
+Score
+
+Correct answers
+
+Progress
+
+========================================
+
+NOTES MODULE
+
+Offline notes
+
+Markdown support
+
+PDF support
+
+Bookmark notes
+
+========================================
+
+PREVIOUS PAPERS
+
+JNTUH
+
+JNTUK
+
+JNTUA
+
+VTU
+
+Anna University
+
+Organize papers by year.
+
+========================================
+
+SETTINGS
+
+Dark Mode
+
+Font Size
+
+Reset Progress
+
+About App
+
+========================================
+
+Use these packages:
+
+provider
+
+shared_preferences
+
+sqflite
+
+photo_view
+
+flutter_markdown
+
+lottie
+
+path_provider
+
+========================================
+
+Assets folders:
+
+assets/images/
+
+assets/diagrams/
+
+assets/pdf/
+
+assets/icons/
+
+assets/animations/
+
+========================================
+
+Generate professional reusable widgets.
+
+Use Material 3.
+
+Use responsive layouts.
+
+Generate all Dart files.
+
+Generate pubspec.yaml.
+
+Generate navigation.
+
+Generate complete project.
+
+The application must compile successfully without errors.
+
+Finally generate:
+
+flutter build apk --release
+
+The project should be production-ready and ready for Google Play Store publishing. 
